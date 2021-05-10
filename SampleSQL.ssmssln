@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# SQL Server Management Studio Solution File, Format Version 18.00
+VisualStudioVersion = 15.0.28307.421
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "SampleSQL", "SampleSQL\SampleSQL.ssmssqlproj", "{3892E0AD-58A2-4FCF-AABD-587A99239F91}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "Operators", "Operators\Operators.ssmssqlproj", "{8E8B2EC7-C6E7-420D-A06E-20FC6DFF1EC3}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "OrderBy", "OrderBy\OrderBy.ssmssqlproj", "{011EB038-33B9-425A-B4A1-6FAD08A59C68}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "DML", "DML\DML.ssmssqlproj", "{4F0BCDDC-8F1C-4B5A-B425-BC4D3F30C0D2}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "DDL", "DDL\DDL.ssmssqlproj", "{ECF5F99A-2B89-481D-8F0E-79FAEDFF6063}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "Rename", "Rename\Rename.ssmssqlproj", "{2AA190A3-E52D-4E37-A639-378E0C0D4CDA}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "BuiltInFunctions", "BuiltInFunctions\BuiltInFunctions.ssmssqlproj", "{71E795D8-B3CD-4793-BD70-45DC944D9B4C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Default|Default = Default|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3892E0AD-58A2-4FCF-AABD-587A99239F91}.Default|Default.ActiveCfg = Default
+		{DC74C55A-8A16-41B5-B20B-F72A177EE222}.Default|Default.ActiveCfg = Default
+		{8E8B2EC7-C6E7-420D-A06E-20FC6DFF1EC3}.Default|Default.ActiveCfg = Default
+		{011EB038-33B9-425A-B4A1-6FAD08A59C68}.Default|Default.ActiveCfg = Default
+		{4F0BCDDC-8F1C-4B5A-B425-BC4D3F30C0D2}.Default|Default.ActiveCfg = Default
+		{ECF5F99A-2B89-481D-8F0E-79FAEDFF6063}.Default|Default.ActiveCfg = Default
+		{2AA190A3-E52D-4E37-A639-378E0C0D4CDA}.Default|Default.ActiveCfg = Default
+		{71E795D8-B3CD-4793-BD70-45DC944D9B4C}.Default|Default.ActiveCfg = Default
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8C782356-ABC0-4A47-B932-FD0C3648F80B}
+	EndGlobalSection
+EndGlobal
