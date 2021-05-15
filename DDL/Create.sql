@@ -6,4 +6,5 @@ Job varchar(40),
 ESal money,
 HireDate date,
 );
+select * from Emp
 insert into Emp values(1,'Ram','Manager',10000,'01-03-2019')

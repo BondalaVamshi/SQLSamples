@@ -1,15 +1,15 @@
 <?xml version="1.0"?>
-<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="BuiltInFunctions">
+<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="ConditionalSatements">
   <Items>
     <LogicalFolder Name="Connections" Type="2" Sorted="true">
       <Items>
         <ConnectionNode Name="COGNINE-L11\SQLEXPRESS:COGNINE-L11\Lenovo">
-          <Created>2021-05-10T15:27:05.1794365+05:30</Created>
+          <Created>2021-05-14T20:23:21.1852066+05:30</Created>
           <Type>SQL</Type>
           <Server>COGNINE-L11\SQLEXPRESS</Server>
           <UserName />
           <Authentication>Windows Authentication</Authentication>
-          <InitialDB />
+          <InitialDB>MYBD</InitialDB>
           <LoginTimeout>30</LoginTimeout>
           <ExecutionTimeout>0</ExecutionTimeout>
           <ConnectionProtocol>NotSpecified</ConnectionProtocol>
@@ -19,41 +19,23 @@
     </LogicalFolder>
     <LogicalFolder Name="Queries" Type="0" Sorted="true">
       <Items>
-        <FileNode Name="Analytical.sql">
+        <FileNode Name="IfElse.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:COGNINE-L11\SQLEXPRESS:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>COGNINE-L11\SQLEXPRESS</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>Analytical.sql</FullPath>
+          <FullPath>IfElse.sql</FullPath>
         </FileNode>
-        <FileNode Name="Date.sql">
+        <FileNode Name="SearchedCase.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:COGNINE-L11\SQLEXPRESS:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>COGNINE-L11\SQLEXPRESS</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>Date.sql</FullPath>
+          <FullPath>SearchedCase.sql</FullPath>
         </FileNode>
-        <FileNode Name="Group.sql">
+        <FileNode Name="SimpleCase.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:COGNINE-L11\SQLEXPRESS:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>COGNINE-L11\SQLEXPRESS</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>Group.sql</FullPath>
-        </FileNode>
-        <FileNode Name="GroupBy.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:COGNINE-L11\SQLEXPRESS:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>COGNINE-L11\SQLEXPRESS</AssociatedConnSrvName>
-          <AssociatedConnUserName />
-          <FullPath>GroupBy.sql</FullPath>
-        </FileNode>
-        <FileNode Name="Mathematical.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:COGNINE-L11\SQLEXPRESS:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>COGNINE-L11\SQLEXPRESS</AssociatedConnSrvName>
-          <AssociatedConnUserName />
-          <FullPath>Mathematical.sql</FullPath>
-        </FileNode>
-        <FileNode Name="String.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:COGNINE-L11\SQLEXPRESS:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>COGNINE-L11\SQLEXPRESS</AssociatedConnSrvName>
-          <AssociatedConnUserName />
-          <FullPath>String.sql</FullPath>
+          <FullPath>SimpleCase.sql</FullPath>
         </FileNode>
       </Items>
     </LogicalFolder>

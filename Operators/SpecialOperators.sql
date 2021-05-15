@@ -7,6 +7,7 @@ select * from FirstStudent where SName between 's3' and 's1'
 select * from FirstStudent where SName not between 's1' and 's3'
 
 ---IN---
+select * from FirstStudent where SName='s1' or  SName='s3'
 select * from FirstStudent where SName in('s1','s3')
 select * from FirstStudent where TutionFee in(12000,13000)
 select * from FirstStudent where TutionFee in(13000,12000)
@@ -17,7 +18,7 @@ select * from FirstStudent where SName like's%'
 select * from FirstStudent where SAddress like'ka%'
 select * from FirstStudent where SAddress like'%ar'
 select * from FirstStudent where TutionFee like '1%'
-select * from FirstStudent where TutionFee like '%1'
+select * from FirstStudent where TutionFee like '_2%'
 select * from FirstStudent where SName like 's_'
 select * from FirstStudent where SName like '_1'
 select * from FirstStudent where SAddress like '_ari%'

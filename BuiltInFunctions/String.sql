@@ -1,28 +1,28 @@
-
 ---Upper---
 select UPPER('hello world')
 select UPPER('hello world') as wishes
 select upper(EName) as ENAME from Emp
 select *  from Emp
-
 ---Lower---
 select lower('hello world') as wishes
 print lower('WORLD')
 update Emp set GMail=UPPER(EName)+LOWER(Job)+'@cognine.com'
 print len('World')
-
 ---Left---
 print left('hello world',3)
 select * from Emp where left(EName,1)=RIGHT(EName,1)
 update Emp set GMail=UPPER(EName)+LOWER(left(Job,6))+'@cognine.com'
-
 ---Right---
 print right('hello world',3)
 select * from Emp where right(EName,1)='n'
-
 ---SubString---
 select SUBSTRING('hello from EMP',2,8)
 select SUBSTRING(GMail,2,5) as substringof from Emp
+---Replace---
+select replace('Hello all','ll','mm')
+select REPLACE(GMail,'@cognine.com','@gmail.com') as NewMail from Emp
+---Replicate
+select replicate('*',len(ESal)) from Emp
 
 
 print upper('hello')
