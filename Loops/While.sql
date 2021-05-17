@@ -25,7 +25,7 @@ declare @InputNo int,@OutPutNo varchar(50)
   set @InputNo=@InputNo+1
   end
 
- ---No Tables--
+ ---Number Tables--
  declare @TableValue int,@OutputValue varchar(50),@OutPutNo int ,@InputNo int
 
  set @InputNo=7

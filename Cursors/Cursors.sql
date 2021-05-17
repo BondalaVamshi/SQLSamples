@@ -3,6 +3,7 @@ select * from Emp
 select EName,ESal from Emp
 declare cursor_Emp_ENameESal cursor for
 select EName,ESal from Emp
+---Showing names with salary---
 declare @EName varchar(40),@ESal money
 open cursor_Emp_ENameESal 
 fetch  next from cursor_Emp_ENameESal  into @EName,@ESal
@@ -14,7 +15,7 @@ while(@@FETCH_STATUS=0)
 close  cursor_Emp_ENameESal 
 deallocate cursor_Emp_ENameESal 
 
-
+---SHowing names with salary and total salary without sum(ESal)--
 declare cursor_Emp_ENameESal cursor for select EName,ESal from Emp
 declare @EName varchar(40),@ESal money,@TSal money
 set @TSal=0
@@ -30,7 +31,7 @@ while(@@FETCH_STATUS=0)
 close  cursor_Emp_ENameESal 
 deallocate cursor_Emp_ENameESal 
 
-
+---names,salary,total salary,Total Names---
 declare cursor_Emp_ENameESal cursor for
 select EName,ESal from Emp
 declare @EName varchar(40),@ESal money,@TotalEName varchar(550),@TotalESal money
@@ -51,6 +52,7 @@ while(@@FETCH_STATUS=0)
 close  cursor_Emp_ENameESal 
 deallocate cursor_Emp_ENameESal 
 
+---showing names---
 declare cursor_Emp_ENameESal cursor for select EName from Emp
 declare @EName varchar(40)
 set @EName=''

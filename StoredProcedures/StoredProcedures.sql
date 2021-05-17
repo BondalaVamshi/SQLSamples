@@ -29,3 +29,41 @@ execute USP_EmpUpdatingSalary 1,111,@s output
 print @s
 print 'value is '+cast(@s as varchar)
 select * from Emp
+
+create procedure USP_EmployInfo_ESal
+@EId int,
+@Amt money,
+@EName varchar(20)
+as
+begin
+ update EmployInfo set ESal=ESal+@Amt where EId=@EId
+end
+exec USP_EmployInfo_ESal 112,1231,'aa'
+
+---output parameter---
+create procedure USP_EmployInfo_ESal_Out
+@EId int,
+@Amt money,
+@ESal money out
+as
+begin
+ update EmployInfo set ESal=ESal+@Amt where EId=@EId
+ select @ESal=ESal from EmployInfo where EId=@EId
+end
+
+declare @out money
+select ESal from EmployInfo where EId=112 
+exec USP_EmployInfo_ESal_Out 112,1231,@out output
+print 'updated salary :'+cast(@out as varchar)
+
+select ESal from EmployInfo where EId=112 
+declare @out money
+exec USP_EmployInfo_ESal_Out @EId=112,@Amt=1231,@ESal=@out output
+print 'updated salary :'+cast(@out as varchar)
+
+select * into EmployInfoY from EmployInfo
+select* from EmployInfo
+select* from EmployInfoY
+
+
+

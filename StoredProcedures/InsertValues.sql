@@ -1,10 +1,42 @@
 use MYBD
+select * from EmpY
+select * from Emp
+select * from EmpSP
+select * from EmpR
+
 create table EmpSP
 (
 EmpId int primary key,
 EName varchar(50) not null,
 ESal money check(ESal>=10000)
 );
+
+create procedure USP_EmpSP_insert
+@EmpId int,
+@EName varchar,
+@ESal money
+as
+begin
+insert into EmpSP values(@EmpId,@EName,@ESal)
+End
+
+exec USP_EmpSP_insert 2,'Almatti',12000
+select * from EmpSP
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 create procedure USP_InsertEmpSP
 @EmpId int,

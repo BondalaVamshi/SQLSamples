@@ -22,4 +22,4 @@ return @Res
 end
 
 grant select,insert on CalC to uservamshi
-select dbo.CalC()
+select dbo.CalC(2,3,'*')
