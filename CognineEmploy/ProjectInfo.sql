@@ -17,3 +17,12 @@ update ProjectInfo set ProjectName='RtcBus' where ProjectId=2
 insert into ProjectInfo values
 (3,'Visa',1),(4,'Bhim',2),(5,'MumbaiMetro',4),(6,'library',null)
 select * from ProjectInfo
+
+
+
+select * from ProjectInfo
+select * from EmployInfo
+
+select *
+from EmployInfo  left outer join ProjectInfo  
+on EmployInfo.ProjectId=ProjectInfo.ProjectId

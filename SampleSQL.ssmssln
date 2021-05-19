@@ -41,6 +41,8 @@ Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "ExceptionHendling", "Except
 EndProject
 Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "Triggers", "Triggers\Triggers.ssmssqlproj", "{69C626BD-5376-4477-88D8-AAF00189F8EC}"
 EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "LibraryManagement", "LibraryManagement\LibraryManagement.ssmssqlproj", "{AC409D1E-75DA-46AE-AE16-951F98176CAB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Default|Default = Default|Default
@@ -64,8 +66,9 @@ Global
 		{5F8AB706-771F-4925-A609-139F97BC15FC}.Default|Default.ActiveCfg = Default
 		{4A2E10B6-52AB-46DE-A938-EDE6FD62D091}.Default|Default.ActiveCfg = Default
 		{7C596778-9CD5-457C-8FE1-6DB6CD270831}.Default|Default.ActiveCfg = Default
-		{B8BCAB95-2510-482B-AE5C-3D89541D6E1A}.Default|Default.ActiveCfg = Default
 		{69C626BD-5376-4477-88D8-AAF00189F8EC}.Default|Default.ActiveCfg = Default
+		{663C6380-0DEC-4191-B6A8-84B046B78A90}.Default|Default.ActiveCfg = Default
+		{AC409D1E-75DA-46AE-AE16-951F98176CAB}.Default|Default.ActiveCfg = Default
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

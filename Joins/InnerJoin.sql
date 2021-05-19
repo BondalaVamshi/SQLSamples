@@ -38,3 +38,10 @@ on E.ProjectId = P.ProjectId
       join Customer as C
 on P.ProjectId=C.projectId
 
+
+
+----=--
+select * from EmployInfo
+select * from ProjectInfo
+
+select 

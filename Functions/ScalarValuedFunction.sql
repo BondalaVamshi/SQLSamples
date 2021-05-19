@@ -1,4 +1,4 @@
-create function FN_Emp_GetName(@No int) returns varchar(500)
+create function FN_Emp_GetName() returns varchar(500)
 as 
 begin
  declare c1 cursor for select EName from Emp
@@ -17,6 +17,8 @@ begin
  return left(@TotalEName,len(@TotalEName)-1)
 end
 
+
+drop function FN_Emp_GetName
 select user_name()
 select dbo.FN_Emp_GetName(5) 
 

@@ -49,3 +49,5 @@ delete from Customer where CustomerName in(select CustomerName from Customer gro
 	 -- add  CustomerId int identity(10,1)
     insert into Customer values(1,'ALbert','Visa',2)
     insert into Customer values(2,'Einstene','MumbaiMetro',4),(3,'Savera','MeeSeva',3)
+
+

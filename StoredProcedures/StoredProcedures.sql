@@ -13,6 +13,7 @@ execute USP_UpdateSalary 1000,1
 ---passing values to parameters with named notation---
 execute USP_UpdateSalary @Amt=1200,@EId=1
 
+select * from 
 ---with output parameter---
 create procedure USP_EmpUpdatingSalary
 @EId int,
